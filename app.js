@@ -31,7 +31,7 @@ const showBreedImg = (breedInfo) => {
 	// console.log(breedInfo.message);
 	let breedImg = breedInfo.message;
 	let showBreedInfo = `
-        <img  src='${breedImg}' style="width:300px;height:200px;display:block;margin:0 auto;"/>
+        <img  src='${breedImg}' style="width:500px;height:250px;display:block;margin:0 auto;border-radius:5px;"/>
     `;
 	const breedImgDiv = document.getElementById('breed-img');
 	breedImgDiv.innerHTML = showBreedInfo;
