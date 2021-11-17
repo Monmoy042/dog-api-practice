@@ -1,0 +1,47 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: antiquewhite;
+}
+#main-area {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#main-area h3,
+ul {
+	text-align: center;
+	list-style: none;
+}
+#search-area {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+#search-area h3 {
+	text-align: center;
+	color: tomato;
+}
+#search-area input,
+button {
+	display: block;
+	margin: 0 auto;
+}
+#search-breed {
+	height: 40px;
+	width: 300px;
+	border-radius: 5px;
+	border: none;
+}
+#search-btn {
+	height: 35px;
+	background-color:green;
+	width: 100px;
+	border: none;
+	border-radius: 15px;
+	margin-top: 10px;
+    color:honeydew;
+    font-size: 20px;
+    cursor: pointer;
+}
